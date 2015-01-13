@@ -1,11 +1,26 @@
 {
   "name": "bootstrap-sass-demo",
   "version": "0.0.1",
-  "description": "",
+  "description": "<p>This is a simple demo utilizing Node.js, Gulp, Bower, Bootstrap and SASS.</p>\r <p>This project is based on the following tutorial: <a href=\"http://ericlbarnes.com/setting-gulp-bower-bootstrap-sass-fontawesome/\">Setting up Gulp, Bower, Bootstrap, Sass, FontAwesome</a></p>",
   "main": "public/index.php",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Aaron Rose <aaron.rose@ditech.com",
-  "license": "Apache 2.0"
+  "author": "Aaron Rose",
+  "license": "Apache 2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aarrose/bootstrap-sass-demo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aarrose/bootstrap-sass-demo/issues"
+  },
+  "homepage": "https://github.com/aarrose/bootstrap-sass-demo",
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-autoprefixer": "^2.0.0",
+    "gulp-bower": "0.0.10",
+    "gulp-notify": "^2.1.0",
+    "gulp-ruby-sass": "^0.7.1"
+  }
 }
