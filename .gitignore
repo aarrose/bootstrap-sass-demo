@@ -1,0 +1,6 @@
+#######################
+# Git Ignore Patterns #
+#######################
+
+npm-debug.log
+node_modules/
